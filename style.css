@@ -11,6 +11,7 @@
   background-color: #0d6efd;
   border-radius: 5px;
 }
+/* Hero Section Styling */
 .hero-section {
   padding: 150px 0px;
   position: relative;
@@ -30,7 +31,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .btn {
@@ -43,8 +44,9 @@
 
 /* Responsive Setting */
 @media only screen and (min-width: 1200px) {
+  /* Hero Section Styling Responsive */
   .car-img {
-    max-width: 700px;
+    max-width: 900px;
     width: 50%;
     position: absolute;
     right: 0;
@@ -52,7 +54,8 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  /* Hero Section Styling Responsive */
   .car-img {
     max-width: 700px;
     width: 50%;
@@ -63,6 +66,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* Hero Section Styling Responsive */
   .hero-section {
     padding: 50px 0 50px 0px;
   }
@@ -82,6 +86,7 @@
 }
 
 @media only screen and (max-width: 576px) {
+  /* Hero Section Styling Responsive */
   .hero-section {
     padding: 75px 0px 280px 0px;
   }
