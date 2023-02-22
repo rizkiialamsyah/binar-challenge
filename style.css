@@ -13,6 +13,7 @@
 }
 /* Hero Section Styling */
 .hero-section {
+  height: 500px;
   padding: 150px 0px;
   position: relative;
   overflow: hidden;
@@ -46,7 +47,7 @@
 @media only screen and (min-width: 1200px) {
   /* Hero Section Styling Responsive */
   .car-img {
-    max-width: 900px;
+    max-width: 800px;
     width: 50%;
     position: absolute;
     right: 0;
@@ -56,6 +57,10 @@
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   /* Hero Section Styling Responsive */
+  .hero-section {
+    height: 550px;
+    padding: 150px 0px;
+  }
   .car-img {
     max-width: 700px;
     width: 50%;
@@ -68,7 +73,8 @@
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   /* Hero Section Styling Responsive */
   .hero-section {
-    padding: 50px 0 50px 0px;
+    height: 450px;
+    padding: 50px 0px;
   }
   .tagline-heading {
     font-size: 22px;
@@ -84,10 +90,26 @@
     right: 0;
   }
 }
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .hero-section {
+    height: 900px;
+    padding: 75px 0px 280px 0px;
+  }
+  .car-img {
+    max-width: 1200px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+  }
+  .tagline-heading {
+    font-size: 47px;
+  }
+}
 
 @media only screen and (max-width: 576px) {
   /* Hero Section Styling Responsive */
   .hero-section {
+    height: 900px;
     padding: 75px 0px 280px 0px;
   }
   .car-img {
