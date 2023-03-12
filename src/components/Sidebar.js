@@ -34,7 +34,7 @@ function Sidebar({ ...props }) {
             >
               Our Services
             </a>
-            <a className="nav-link active mb-2" href="whyus">
+            <a className="nav-link active mb-2" href="#whyus">
               Why Us
             </a>
             <a className="nav-link active mb-2" href="#testimoni">
