@@ -5,6 +5,7 @@ import iconcomplete from "../assets/image/icon_complete.png";
 import iconjam from "../assets/image/icon_24hrs.png";
 import iconharga from "../assets/image/icon_price.png";
 import iconpro from "../assets/image/icon_professional.png";
+import FiturFAQ from "../components/FiturFAQ";
 
 const Homepage = (props) => {
   return (
@@ -159,12 +160,8 @@ const Homepage = (props) => {
       <section className="container faq-section">
         <div className="row align-items-start">
           <div className="col-md">
-            <h2 className="why-title">Frequently Asked Question</h2>
-            <h3 className="why-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </h3>
+            <FiturFAQ />
           </div>
-          <div className="col-md"></div>
         </div>
       </section>
       {/*-------------------------------------------- CTA & FAQ Section END ---------------------------------------------------------------------- */}
